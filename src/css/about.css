@@ -1,0 +1,150 @@
+.template {
+  padding: calc(5rem + 7rem) 5rem 5rem calc(5rem + 7rem);
+  height: 100vh;
+  background: lightblue;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-x: hidden;
+}
+
+.template .mainPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.template .profilePic, .template .spacer {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.template .profilePic div, .template .spacer div {
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  border-bottom-right-radius: 0;
+  background-image: url(img/profilePic.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border: 10px solid lightblue;
+  outline: 3px solid #1b1b1b;
+}
+
+.template .desc {
+  width: 60em;
+  margin: 0 20rem 0 5rem;
+}
+
+.template .desc h5 {
+  font-size: 2.5rem;
+  font-family: "oswald", sans-serif;
+  font-weight: 200;
+}
+
+.template .desc p {
+  font-size: 1.5rem;
+  font-family: "montserrat", sans-serif;
+}
+
+.template .secondPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2rem 0 2rem 5rem;
+}
+
+.template .secondPart .spacer {
+  width: 50%;
+}
+
+.template .secondPart .buttons {
+  width: 60em;
+  margin: 0 20rem 0 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.template .secondPart .buttons a.button {
+  font-size: 1.5rem;
+  font-family: "oswald", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: white;
+  background: #1b1b1b;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+.template .secondPart .buttons a.button:hover {
+  background: white;
+  color: teal;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.template .secondPart .buttons .socialIcons {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.template .secondPart .buttons .socialIcons a {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.template .secondPart .buttons .socialIcons a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.template .secondPart .buttons .socialIcons a:hover i {
+  background: white;
+  color: teal;
+}
+
+.template .secondPart .buttons .socialIcons i {
+  background: #1b1b1b;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+}
+/*# sourceMappingURL=about.css.map */

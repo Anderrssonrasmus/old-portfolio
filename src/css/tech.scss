@@ -1,0 +1,106 @@
+@media screen and (min-width: 922px){
+    .tech{
+        height: fit-content;
+        max-width: 100vw;
+        background: linear-gradient(white, lightblue);
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 10rem;
+        padding-top: 4rem;
+    
+    
+        .tech-grid{
+            width: 35em;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(33.3%, 33.3%));
+            grid-auto-rows: fit-content;
+            gap: 5em;
+            margin-top: 10rem;
+            justify-self: center;
+            justify-content: center;
+    
+            article{
+                width: fit-content;
+                height: fit-content;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid teal;
+                box-sizing: content-box;
+                transition: all 0.2s ease;
+    
+                &:hover{
+                    transform: scale(1.2);
+                    background: teal;
+                }
+    
+    
+                img{
+                    height: 100%;
+                    width: 100%;
+                    padding: 50px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .tech{
+        height: fit-content;
+        max-width: 100vw;
+        background: linear-gradient(white, lightblue);
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 10rem;
+        padding-top: 4rem;
+    
+    
+        .tech-grid{
+            width: 100%;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(30%, 30%));
+            grid-auto-rows: fit-content;
+            row-gap: 1em;
+            margin-top: 2rem;
+            justify-self: center;
+            justify-content: center;
+    
+            article{
+                width: 80%;
+                aspect-ratio: 1 / 1;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid teal;
+                box-sizing: content-box;
+                transition: all 0.2s ease;
+                justify-self: center;
+    
+                &:hover{
+                    transform: scale(1.2);
+                    background: teal;
+                }
+    
+    
+                img{
+                    height: 100%;
+                    width: 100%;
+                    padding: 15px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}

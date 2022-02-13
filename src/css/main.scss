@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&display=swap');
+
+@media screen and (min-width: 992px) {
+    .main{
+        padding: calc(5rem + 5rem) 5rem 5rem calc(5rem + 7rem);
+        background-image: linear-gradient( white, lightblue);
+        max-height: 100vh;
+        min-height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+    
+        div{
+             width: 80%;
+             height: fit-content;
+             cursor: default;
+    
+             span{
+                transition: all 0.2s ease;
+                &:hover{
+                    text-shadow: -8px 0px 0px rgba(0, 128, 128, 1);
+                }
+             }
+             
+             h2{
+                 color: #1b1b1b;
+                 font-size: 10rem;
+                 font-family: 'Oswald', sans-serif;
+                 line-height: 0.8;
+             }
+    
+             h3{
+                 font-size: 8rem;
+                 text-transform: uppercase;
+                 line-height: 0.8;
+                 color: teal;
+             }
+    
+             p{
+                 color: #1b1b1b;
+                 font-size: 4rem;
+                 font-family: "montserrat", sans-serif;
+             }
+        }
+    
+        .scroll{
+            position: absolute;
+            bottom: 0.5em;
+            right: 2em;
+            flex-direction: row;
+            width: fit-content;
+            font-size: 2rem;
+            font-weight: 200;
+            font-family: "montserrat";
+            animation: bob 5s ease-in-out infinite;
+            color: #1b1b1b;
+            transition: 0.2s ease;
+            line-height: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            outline: none;
+            background: none;
+            cursor: pointer;
+    
+            &:hover{
+                font-size: 3rem;
+                color: teal;
+            }
+    
+            i{
+                -webkit-text-stroke: 2px lightblue;
+                margin-right: 0.5em;
+            }
+        }
+    }
+    
+    .atTop{
+        opacity: 0;
+        transition: all 0.2s ease;
+    }
+    
+    .noAnimation{
+        animation: none !important;
+    }
+    
+    @keyframes bob{
+        from{
+            transform: translateY(-1em);
+        }
+    
+        50%{
+            transform: translateY(-0.75em);
+        }
+    
+        to{
+            transform: translateY(-1em);
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .main{
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-image: linear-gradient( white, lightblue);
+        position: relative;
+    
+        div{
+            width: 100%;
+    
+            h2{
+                font-family: "oswald";
+                font-size: 4em;
+            }
+    
+            h3{
+                font-size: 4em;
+                text-align: end;
+                color: teal;
+            }
+
+            p{
+                font-family: "montserrat", sans-serif;
+                font-size: 2em;
+            }
+        }
+    
+        button{
+            position: absolute;
+            bottom: 0.5em;
+            left: 50%;
+            transform: translatex(-50%);
+            border: none;
+            background: none;
+            display: flex;
+            justify-content: space-between;
+            font-family: "montserrat", sans-serif;
+            font-size: 2em;
+    
+            i{
+                -webkit-text-stroke: lightblue 3px;
+                margin-right: 0.2em;
+            }
+        }
+    }    
+}

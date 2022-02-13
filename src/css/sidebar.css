@@ -1,0 +1,100 @@
+@media screen and (min-width: 992px) {
+  .sidebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 7em;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    z-index: 99999999999999999;
+  }
+  .sidebar .logo {
+    height: 20%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: -2em;
+    cursor: default;
+  }
+  .sidebar .logo img {
+    width: 60%;
+    height: auto;
+    cursor: pointer;
+  }
+  .sidebar .list-items {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 2rem 0;
+  }
+  .sidebar .list-items a {
+    text-decoration: none;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .sidebar .list-items a:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background: teal;
+  }
+  .sidebar .list-items a:hover i {
+    color: white;
+  }
+  .sidebar .list-items a i {
+    font-size: 2rem;
+    color: #1b1b1b;
+  }
+  .sidebar .line {
+    width: 3px;
+    height: 20%;
+    background: #1b1b1b;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=sidebar.css.map */
