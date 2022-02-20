@@ -8,7 +8,7 @@ function Main() {
             <div>
                 <h2 className="fade"><span>R</span>asmu<span>s</span> <span>A</span>ndersson</h2>
                 <h3 className="fade">Web Developer</h3>
-                <p className="fade">Wordpress/React3</p>
+                <p className="fade">Wordpress/React33</p>
             </div>
             <button className="scroll" onClick={scrollAbout}>
                 <i class="fas fa-chevron-down"></i>
