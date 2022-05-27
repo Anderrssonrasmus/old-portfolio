@@ -16,7 +16,7 @@
             width: 35em;
             height: fit-content;
             display: grid;
-            grid-template-columns: repeat(3, minmax(30%, 30%));
+            grid-template-columns: repeat(3, 1fr);
             grid-auto-rows: fit-content;
             gap: 2em;
             margin-top: 10rem;
