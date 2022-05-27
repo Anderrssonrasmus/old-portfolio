@@ -54,7 +54,7 @@
     top: 0;
     left: 0;
     background: teal;
-    opacity: 50% !important;
+    opacity: 0% !important;
     pointer-events: none;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -90,7 +90,8 @@
     color: white;
     pointer-events: all;
   }
-  .projects .project .textBox p.projectText, .projects .project .textBox .projectYear {
+  .projects .project .textBox p.projectText,
+  .projects .project .textBox .projectYear {
     font-size: 1.5rem;
     font-family: "montserrat", sans-serif;
   }
@@ -201,7 +202,8 @@
     color: white;
     pointer-events: all;
   }
-  .projects .project .textBox p.projectText, .projects .project .textBox .projectYear {
+  .projects .project .textBox p.projectText,
+  .projects .project .textBox .projectYear {
     font-size: 1.5rem;
     font-family: "montserrat", sans-serif;
   }
