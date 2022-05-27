@@ -1,5 +1,5 @@
-@media screen and (min-width: 922px){
-    .tech{
+@media screen and (min-width: 922px) {
+    .tech {
         height: fit-content;
         max-width: 100vw;
         background: linear-gradient(white, lightblue);
@@ -10,20 +10,20 @@
         flex-direction: column;
         padding-bottom: 10rem;
         padding-top: 4rem;
-    
-    
-        .tech-grid{
+
+
+        .tech-grid {
             width: 35em;
             height: fit-content;
             display: grid;
-            grid-template-columns: repeat(3, minmax(33.3%, 33.3%));
+            grid-template-columns: repeat(3, minmax(30%, 30%));
             grid-auto-rows: fit-content;
-            gap: 5em;
+            gap: 2em;
             margin-top: 10rem;
             justify-self: center;
             justify-content: center;
-    
-            article{
+
+            article {
                 width: fit-content;
                 height: fit-content;
                 border-radius: 50%;
@@ -33,14 +33,14 @@
                 border: 3px solid teal;
                 box-sizing: content-box;
                 transition: all 0.2s ease;
-    
-                &:hover{
+
+                &:hover {
                     transform: scale(1.2);
                     background: teal;
                 }
-    
-    
-                img{
+
+
+                img {
                     height: 100%;
                     width: 100%;
                     padding: 50px;
@@ -51,8 +51,8 @@
     }
 }
 
-@media screen and (max-width: 992px){
-    .tech{
+@media screen and (max-width: 992px) {
+    .tech {
         height: fit-content;
         max-width: 100vw;
         background: linear-gradient(white, lightblue);
@@ -63,9 +63,9 @@
         flex-direction: column;
         padding-bottom: 10rem;
         padding-top: 4rem;
-    
-    
-        .tech-grid{
+
+
+        .tech-grid {
             width: 100%;
             height: fit-content;
             display: grid;
@@ -75,8 +75,8 @@
             margin-top: 2rem;
             justify-self: center;
             justify-content: center;
-    
-            article{
+
+            article {
                 width: 80%;
                 aspect-ratio: 1 / 1;
                 border-radius: 50%;
@@ -87,14 +87,14 @@
                 box-sizing: content-box;
                 transition: all 0.2s ease;
                 justify-self: center;
-    
-                &:hover{
+
+                &:hover {
                     transform: scale(1.2);
                     background: teal;
                 }
-    
-    
-                img{
+
+
+                img {
                     height: 100%;
                     width: 100%;
                     padding: 15px;

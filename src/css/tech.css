@@ -30,11 +30,11 @@
     height: fit-content;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(33.3%, 33.3%))[3];
-        grid-template-columns: repeat(3, minmax(33.3%, 33.3%));
+    -ms-grid-columns: (minmax(30%, 30%))[3];
+        grid-template-columns: repeat(3, minmax(30%, 30%));
     grid-auto-rows: -webkit-fit-content;
     grid-auto-rows: fit-content;
-    gap: 5em;
+    gap: 2em;
     margin-top: 10rem;
     -ms-grid-column-align: center;
         justify-self: center;
