@@ -45,7 +45,7 @@
     width: auto;
   }
   .projects .project img:hover ~ .img-overlay {
-    opacity: 0;
+    opacity: 0 !important;
   }
   .projects .project .img-overlay {
     position: absolute;
@@ -53,8 +53,8 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: teal;
-    opacity: 50% !important;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
     pointer-events: none;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
